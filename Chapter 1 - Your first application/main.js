@@ -26,10 +26,10 @@ $(document).ready(function() {
         text.justification = 'center';
         text.fillColor = 'white';
         text.fontSize = 30;
-        text.content = 'JavazZzzZzZzzZzzcript';
+        text.content = 'Javascript';
 
-        var owo = new Tool();
-        owo.onMouseDrag = function(event){
+        var o = new Tool();
+        o.onMouseDrag = function(event){
             var d = Shape.Circle(event.point.x, event.point.y, 5); // or (event.point, 5)
             d.fillColor = 'red';
         }
